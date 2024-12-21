@@ -1,10 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My AI Art Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI Art Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+         h2 {
+            color: #333;
+             border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        p {
+            color: #555;
+        }
+         a {
+            color: #007bff;
+            text-decoration: none;
+        }
+         a:hover {
+           text-decoration: underline;
+        }
+        .image-container {
+          max-width: 70%;
+          margin: 0 auto;
+         display: block;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+             display: block;
+           margin: 0 auto;
+            border: 1px solid #ddd;
+        }
+        .prompt-container {
+          max-width: 70%;
+          margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+             border: 1px solid #ddd;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to my AI Art Portfolio!</h1>
-    <p>This is a website created using GitHub Pages</p>
+    <h1>Welcome to My AI Art Portfolio</h1>
+    <p>This website contains AI artwork and prompts.</p>
+
+    <h2>My First Image</h2>
+      <img class="image-container" src="images/original/my-dog-image.png" alt="A picture of a cartoon dog">
+
+     <h2>Link to Prompts</h2>
+       <div class="prompt-container">
+        <p><a href="prompts/running_prompt.txt" > View my `running_prompt.txt` file </a></p>
+       </div>
+
+    <h2>Link to Notes</h2>
+       <div class="prompt-container">
+        <p><a href="notes/project_notes.md">View my notes</a></p>
+       </div>
 </body>
 </html>
